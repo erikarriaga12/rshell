@@ -14,4 +14,5 @@ Commands include :
 
 Bugs 
 
-  There is alot still
+- When a command connected by an && comand fails, then all following commands fail
+- The || symbol is not currently being detected by the parser
