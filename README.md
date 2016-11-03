@@ -1,3 +1,17 @@
 # rshell
 
-Introduction 
+Introduction:
+
+This project is a basic r shell that lets us emulate the terminal and lets us type commands where they will be tested according to their connector which can be ;, && or ||. These commands will execute depending on which connector is typed before them. 
+
+Features:
+
+Commands include :
+		|| which means it will execute only if the previous command failed 
+		&& which means it will execute only if the previous command succeeded
+		; It will execute no matter what happened in the previous command 
+		# which means that everything after the sign will be commented 
+
+Bugs 
+
+  There is alot still
